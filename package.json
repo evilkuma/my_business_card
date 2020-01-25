@@ -1,0 +1,30 @@
+{
+  "name": "my_business_card",
+  "version": "1.0.0",
+  "description": "This repository is my business card, which is a resume and portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evilkuma/my_business_card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evilkuma/my_business_card/issues"
+  },
+  "homepage": "https://evilkuma.github.io/resume",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "gh-pages": "^2.1.1",
+    "html-loader": "^0.5.5",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

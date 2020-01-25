@@ -1,2 +1,2 @@
 # my_business_card
-This repository is my business card, which is a summary and portfolio.
+This repository is my business card, which is a resume and portfolio.
