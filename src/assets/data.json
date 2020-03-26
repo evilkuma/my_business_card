@@ -1,0 +1,125 @@
+{
+    "images": {
+        "avatar": "avatar.jpg",
+        "bg": "bg.jpg",
+        "viyar": "companies/viyar.png",
+        "tec_knute": "education/tec_knute.png",
+        "knute": "education/knute.png",
+        "es6": "technology/es6-logo.png",
+        "vue": "technology/vue-logo.png",
+        "vs-code": "technology/vs-code-logo.png"
+    },
+    "header": {
+        "profile": "profile",
+        "language": "language"
+    },
+    "parallax": {
+        "image": "bg"
+    },
+    "main": {
+        "name": "main_name",
+        "prof": "main_prof",
+        "description": "main_desc",
+        "image": "avatar"
+    },
+    "tabs": [
+        {
+            "name": "experience",
+            "icon": "verified_user",
+            "data": {
+                "components": [
+                    {
+                        "tag": "exp-card",
+                        "props": {
+                            "company": "viyar",
+                            "vacancies": ["teamlead", "full_web_dev"],
+                            "date": "2016-2020",
+                            "badges": ["application", "private"],
+                            "requirements": [
+                                "req000",
+                                "req001",
+                                "req002"
+                            ],
+                            "technology": ["vue", "webpack", "javascript", "php", "three.js", "angular.js", "mysql", "bitrix"],
+                            "image": "viyar"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "technology",
+            "icon": "layers",
+            "data": {
+                "components": [
+                    {
+                        "tag": "card-list",
+                        "props": {
+                            "groups": [
+                                {
+                                    "title": "languages",
+                                    "cards": [
+                                        {
+                                            "title": "ES6",
+                                            "image": "es6"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "frameworks",
+                                    "cards": [
+                                        {
+                                            "title": "Vue",
+                                            "image": "vue"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "tools",
+                                    "cards": [
+                                        {
+                                            "title": "VS Code",
+                                            "image": "vs-code"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Education",
+            "icon": "school",
+            "data": {
+                "components": [
+                    {
+                        "tag": "exp-card",
+                        "props": {
+                            "company": "tecknute",
+                            "date": "2013-2016",
+                            "requirements": [
+                                "req100",
+                                "req101"
+                            ],
+                            "image": "tec_knute"
+                        }
+                    },
+                    {
+                        "tag": "exp-card",
+                        "props": {
+                            "company": "knute",
+                            "date": "2016-2019",
+                            "requirements": [
+                                "req110",
+                                "req111"
+                            ],
+                            "image": "knute"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
