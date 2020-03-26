@@ -1,10 +1,12 @@
 {
+  "homepage": "https://evilkuma.github.io/resume",
   "name": "my_business_card",
   "version": "1.0.0",
   "description": "This repository is my business card, which is a resume and portfolio.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack"
   },
@@ -18,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/evilkuma/my_business_card/issues"
   },
-  "homepage": "https://evilkuma.github.io/resume",
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
