@@ -1,6 +1,6 @@
 {
   "homepage": "https://evilkuma.github.io/resume",
-  "name": "my_business_card",
+  "name": "resume",
   "version": "1.0.0",
   "description": "This repository is my business card, which is a resume and portfolio.",
   "main": "index.js",
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evilkuma/my_business_card.git"
+    "url": "git+https://github.com/evilkuma/resume.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/evilkuma/my_business_card/issues"
+    "url": "https://github.com/evilkuma/resume/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
