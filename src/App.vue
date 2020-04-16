@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div :class="{ 'nav-open': NavbarStore.showNavbar }">
     <router-view name="header" />
     <div>
       <router-view />

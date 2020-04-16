@@ -94,7 +94,7 @@ export default {
 
   .profile-tabs [class*=tab-pane-] {
     margin-top: 3.213rem;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
   }
 
 </style>

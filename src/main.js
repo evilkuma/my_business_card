@@ -8,6 +8,19 @@ import App from './App.vue'
 
 Vue.use(MaterialKit)
 
+const NavbarStore = {
+    showNavbar: false
+};
+
+Vue.mixin({
+    data() {
+        return {
+            NavbarStore
+        };
+    }
+});
+  
+
 new Vue({
     el: '#app',
     router,

@@ -7,7 +7,16 @@
         "knute": "education/knute.png",
         "es6": "technology/es6-logo.png",
         "vue": "technology/vue-logo.png",
-        "vs-code": "technology/vs-code-logo.png"
+        "vs-code": "technology/vs-code-logo.png",
+        "js": "technology/javascript-logo.png",
+        "html": "technology/html5-logo.png",
+        "css": "technology/css3-logo.png",
+        "php": "technology/php-logo.png",
+        "three": "technology/threejs-logo.png",
+        "nodejs": "technology/node-logo.png",
+        "git": "technology/git-logo.png",
+        "sublime": "technology/sublime-text.png",
+        "jetbrains": "technology/jetbrains-logo.png"
     },
     "header": {
         "profile": "profile",
@@ -62,6 +71,22 @@
                                         {
                                             "title": "ES6",
                                             "image": "es6"
+                                        },
+                                        {
+                                            "title": "JavaScript",
+                                            "image": "js"
+                                        },
+                                        {
+                                            "title": "HTML",
+                                            "image": "html"
+                                        },
+                                        {
+                                            "title": "CSS3",
+                                            "image": "css"
+                                        },
+                                        {
+                                            "title": "PHP",
+                                            "image": "php"
                                         }
                                     ]
                                 },
@@ -71,6 +96,10 @@
                                         {
                                             "title": "Vue",
                                             "image": "vue"
+                                        },
+                                        {
+                                            "title": "three.js",
+                                            "image": "three"
                                         }
                                     ]
                                 },
@@ -80,6 +109,22 @@
                                         {
                                             "title": "VS Code",
                                             "image": "vs-code"
+                                        },
+                                        {
+                                            "title": "Node.js",
+                                            "image": "nodejs"
+                                        },
+                                        {
+                                            "title": "Git",
+                                            "image": "git"
+                                        },
+                                        {
+                                            "title": "Sublime",
+                                            "image": "sublime"
+                                        },
+                                        {
+                                            "title": "JetBrains IDEAs",
+                                            "image": "jetbrains"
                                         }
                                     ]
                                 }
