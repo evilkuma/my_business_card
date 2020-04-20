@@ -77,9 +77,6 @@ import Tabs from './../components/Tabs.vue'
 import ExpCard from './../components/ExperienceCard.vue'
 import NavTabsCard from './../components/NavTabsCard.vue'
 
-import bg from './../assets/img/bg.jpg'
-import avatar from './../assets/img/avatar.jpg'
-
 export default {
   components: {
     Tabs, ExpCard, NavTabsCard
